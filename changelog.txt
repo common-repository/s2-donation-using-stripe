@@ -1,0 +1,27 @@
+*** Changelog ***
+
+= 1.0.7 - 2021-07-21 =
+* New: Support for WordPress 5.8.1
+
+= 1.0.6 - 2021-04-21 =
+* New: Support for WordPress 5.7.2
+
+= 1.0.5 - 2021-02-22 =
+* Fix: Bug fixes and improvements
+
+= 1.0.4 - 2021-02-14 =
+* New: Showing live data, test data seperately
+
+= 1.0.3 - 2021-02-06 =
+* New: Support for WordPress 5.6.1
+* New: Send donation mail
+
+= 1.0.2 - 2021-01-17 =
+* Fix: Added docs, faq, support link
+
+= 1.0.1 - 2021-01-15 =
+* New: Recurring donation, fixed donation amount
+
+= 1.0.0 - 2021-01-12 =
+* Initial Release
+

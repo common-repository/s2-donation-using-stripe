@@ -1,0 +1,44 @@
+/**
+ * admin.css
+ *
+ * @package S2 Plugin
+ * @since   1.0.0
+ * @author Shuban Studio <shuban.studio@gmail.com>
+ * @version 1.0.0
+ */
+
+.s2-help-tip {
+	margin: -8px -24px 0 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	cursor: help;
+	color: #666;
+	display: inline-block;
+	font-size: 1.1em;
+	font-style: normal;
+	height: 16px;
+	line-height: 16px;
+	vertical-align: middle;
+	width: 16px;
+}
+
+.s2-help-tip::after {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    cursor: help;
+}

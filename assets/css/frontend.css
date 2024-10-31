@@ -1,0 +1,67 @@
+/**
+ * frontend.css
+ *
+ * @package S2 Donation
+ * @since   1.0.0
+ * @author Shuban Studio <shuban.studio@gmail.com>
+ * @version 1.0.0
+ */
+ 
+/* S2 Donation Form */
+.s2-donation-title {
+	text-align: center;
+	margin: 3rem auto 3rem;
+}
+
+.s2-donation-form input:invalid {
+  	border-color: #900;
+  	background-color: #FDD;
+}
+
+.s2-donation-form input:focus:invalid {
+  	outline: none;
+}
+
+/* This is the style of our error messages */
+.s2-donation-form .error {
+  	width  : 100%;
+  	padding: 0;
+  	font-size: 80%;
+  	color: white;
+  	background-color: #900;
+  	border-radius: 0 0 5px 5px;
+  	box-sizing: border-box;
+}
+
+.s2-donation-form .error.active {
+    padding: 0.3em;
+}
+
+@-webkit-keyframes s2-ajax-loader {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes s2-ajax-loader {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.s2-donation-form .s2-ajax-loader {
+    visibility: hidden;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .15em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: .75s linear infinite s2-ajax-loader;
+    animation: .75s linear infinite s2-ajax-loader;
+    color: #343a40;
+}
+/* S2 Donation Form */
